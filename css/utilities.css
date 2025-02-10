@@ -1,0 +1,29 @@
+.screenCenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderRed{
+    border: 2px solid red;
+}
+
+.borderPink{
+    border: 2px solid hotpink;
+}
+
+.borderBlue{
+    border: 2px solid navy;
+}
+
+bgBlack{
+    background-color: black;
+}

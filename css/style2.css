@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(45deg, #f1c295 0%, #ef8fd9 100%);
+  ;
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  color: rgb(247, 79, 50);
+  text-align: center;
+}
+
+#button {
+  width: 10rem;
+  height: 4rem;
+  background: linear-gradient(60deg, #f78776 0%, #fc86a2 39%, #d1284f 90%);
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(15, 15, 114);
+  font-weight: 600;
+}
+
+#button:active {
+  transform: scale(0.9);
+}
+
+.message {
+  backdrop-filter: blur(px);
+  display: none;
+  padding: 15px;
+  margin-top: 10px;
+  overflow: auto;
+  background:linear-gradient(60deg, #f78776 0%, #fc86a2 39%, #ec7e7e 90%);
+  font-family: cursive;
+  border-radius: 25px;
+  border: 2px solid red;
+}
+
+.message p{
+    color: white    ;
+}

@@ -1,0 +1,30 @@
+video,img{
+    width: 25rem;
+    height: 16rem;
+}
+
+body{
+    background: linear-gradient(90deg, #e96a94 0%, #e48f67 100%);
+}
+
+h1{
+    color: rgb(247, 79, 50);
+
+}
+
+#button{
+    width: 10rem;
+    height: 4rem;
+    background: linear-gradient(60deg, #f78776 0%, #fc86a2 39%, #d1284f 90%);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(15, 15, 114);
+    font-weight: 600;
+    transition: 0.2s;
+    display: none;
+}
+
+#button:active{
+    transform: scale(0.9);
+}
